@@ -1,0 +1,1348 @@
+{ error:
+   TypeError: Cannot read property 'blue' of undefined
+       at Object.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js:82:34)
+       at Module._compile (internal/modules/cjs/loader.js:734:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:745:10)
+       at Module.load (internal/modules/cjs/loader.js:626:32)
+       at tryModuleLoad (internal/modules/cjs/loader.js:566:12)
+       at Function.Module._load (internal/modules/cjs/loader.js:558:3)
+       at Function.Module.runMain (internal/modules/cjs/loader.js:797:12)
+       at executeUserCode (internal/bootstrap/node.js:526:15)
+       at startMainThreadExecution (internal/bootstrap/node.js:439:3),
+  level: 'error',
+  message:
+   "uncaughtException: Cannot read property 'blue' of undefined\nTypeError: Cannot read property 'blue' of undefined\n    at Object.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js:82:34)\n    at Module._compile (internal/modules/cjs/loader.js:734:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:745:10)\n    at Module.load (internal/modules/cjs/loader.js:626:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:566:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:558:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:797:12)\n    at executeUserCode (internal/bootstrap/node.js:526:15)\n    at startMainThreadExecution (internal/bootstrap/node.js:439:3)",
+  stack:
+   "TypeError: Cannot read property 'blue' of undefined\n    at Object.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js:82:34)\n    at Module._compile (internal/modules/cjs/loader.js:734:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:745:10)\n    at Module.load (internal/modules/cjs/loader.js:626:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:566:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:558:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:797:12)\n    at executeUserCode (internal/bootstrap/node.js:526:15)\n    at startMainThreadExecution (internal/bootstrap/node.js:439:3)",
+  exception: true,
+  date: 'Mon Feb 11 2019 13:26:00 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9394,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 51081216,
+        heapTotal: 37478400,
+        heapUsed: 17941976,
+        external: 487103 } },
+  os:
+   { loadavg: [ 1.36572265625, 1.53173828125, 1.61572265625 ],
+     uptime: 9744 },
+  trace:
+   [ { column: 34,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js',
+       function: null,
+       line: 82,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._compile',
+       line: 734,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._extensions..js',
+       line: 745,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module.load',
+       line: 626,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'tryModuleLoad',
+       line: 566,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._load',
+       line: 558,
+       method: '_load',
+       native: false },
+     { column: 12,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module.runMain',
+       line: 797,
+       method: 'runMain',
+       native: false },
+     { column: 15,
+       file: 'internal/bootstrap/node.js',
+       function: 'executeUserCode',
+       line: 526,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'internal/bootstrap/node.js',
+       function: 'startMainThreadExecution',
+       line: 439,
+       method: null,
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:26:00.349Z' }
+{ error:
+   TypeError: Cannot read property 'blue' of undefined
+       at Object.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js:82:34)
+       at Module._compile (internal/modules/cjs/loader.js:734:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:745:10)
+       at Module.load (internal/modules/cjs/loader.js:626:32)
+       at tryModuleLoad (internal/modules/cjs/loader.js:566:12)
+       at Function.Module._load (internal/modules/cjs/loader.js:558:3)
+       at Function.Module.runMain (internal/modules/cjs/loader.js:797:12)
+       at executeUserCode (internal/bootstrap/node.js:526:15)
+       at startMainThreadExecution (internal/bootstrap/node.js:439:3),
+  level: 'error',
+  message:
+   "uncaughtException: Cannot read property 'blue' of undefined\nTypeError: Cannot read property 'blue' of undefined\n    at Object.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js:82:34)\n    at Module._compile (internal/modules/cjs/loader.js:734:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:745:10)\n    at Module.load (internal/modules/cjs/loader.js:626:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:566:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:558:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:797:12)\n    at executeUserCode (internal/bootstrap/node.js:526:15)\n    at startMainThreadExecution (internal/bootstrap/node.js:439:3)",
+  stack:
+   "TypeError: Cannot read property 'blue' of undefined\n    at Object.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js:82:34)\n    at Module._compile (internal/modules/cjs/loader.js:734:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:745:10)\n    at Module.load (internal/modules/cjs/loader.js:626:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:566:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:558:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:797:12)\n    at executeUserCode (internal/bootstrap/node.js:526:15)\n    at startMainThreadExecution (internal/bootstrap/node.js:439:3)",
+  exception: true,
+  date: 'Mon Feb 11 2019 13:26:00 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9394,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 51081216,
+        heapTotal: 37478400,
+        heapUsed: 17941976,
+        external: 487103 } },
+  os:
+   { loadavg: [ 1.36572265625, 1.53173828125, 1.61572265625 ],
+     uptime: 9744 },
+  trace:
+   [ { column: 34,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js',
+       function: null,
+       line: 82,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._compile',
+       line: 734,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._extensions..js',
+       line: 745,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module.load',
+       line: 626,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'tryModuleLoad',
+       line: 566,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module._load',
+       line: 558,
+       method: '_load',
+       native: false },
+     { column: 12,
+       file: 'internal/modules/cjs/loader.js',
+       function: 'Module.runMain',
+       line: 797,
+       method: 'runMain',
+       native: false },
+     { column: 15,
+       file: 'internal/bootstrap/node.js',
+       function: 'executeUserCode',
+       line: 526,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'internal/bootstrap/node.js',
+       function: 'startMainThreadExecution',
+       line: 439,
+       method: null,
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:26:00.349Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:51:49 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9602,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 63582208,
+        heapTotal: 40112128,
+        heapUsed: 24009376,
+        external: 573313 } },
+  os:
+   { loadavg: [ 1.5537109375, 1.69580078125, 1.65869140625 ],
+     uptime: 11293 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:51:49.348Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:51:49 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9602,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 63582208,
+        heapTotal: 40112128,
+        heapUsed: 24009376,
+        external: 573313 } },
+  os:
+   { loadavg: [ 1.5537109375, 1.69580078125, 1.65869140625 ],
+     uptime: 11293 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:51:49.348Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:51:56 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9628,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 64679936,
+        heapTotal: 39587840,
+        heapUsed: 23828088,
+        external: 573313 } },
+  os:
+   { loadavg: [ 1.50927734375, 1.68408203125, 1.65478515625 ],
+     uptime: 11300 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:51:56.856Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:51:56 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9628,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 64679936,
+        heapTotal: 39587840,
+        heapUsed: 23828088,
+        external: 573313 } },
+  os:
+   { loadavg: [ 1.50927734375, 1.68408203125, 1.65478515625 ],
+     uptime: 11300 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:51:56.856Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:52:42 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9657,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 63320064,
+        heapTotal: 39063552,
+        heapUsed: 23549952,
+        external: 574090 } },
+  os:
+   { loadavg: [ 1.09716796875, 1.5458984375, 1.60400390625 ],
+     uptime: 11346 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:52:42.781Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:52:42 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9657,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 63320064,
+        heapTotal: 39063552,
+        heapUsed: 23549952,
+        external: 574090 } },
+  os:
+   { loadavg: [ 1.09716796875, 1.5458984375, 1.60400390625 ],
+     uptime: 11346 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:52:42.781Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:53:31 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9687,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 63447040,
+        heapTotal: 39587840,
+        heapUsed: 23829472,
+        external: 573313 } },
+  os:
+   { loadavg: [ 1.16796875, 1.4990234375, 1.58154296875 ],
+     uptime: 11395 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:53:31.911Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:53:31 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9687,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 63447040,
+        heapTotal: 39587840,
+        heapUsed: 23829472,
+        external: 573313 } },
+  os:
+   { loadavg: [ 1.16796875, 1.4990234375, 1.58154296875 ],
+     uptime: 11395 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:53:31.911Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:53:49 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9751,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 63401984,
+        heapTotal: 38539264,
+        heapUsed: 23827920,
+        external: 573313 } },
+  os:
+   { loadavg: [ 1.04541015625, 1.44970703125, 1.56201171875 ],
+     uptime: 11413 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:53:49.052Z' }
+{ error:
+   Error: Status Code: 420
+       at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)
+       at Request.emit (events.js:197:13)
+       at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)
+       at ClientRequest.emit (events.js:197:13)
+       at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)
+       at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)
+       at TLSSocket.socketOnData (_http_client.js:449:20)
+       at TLSSocket.emit (events.js:197:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at TLSSocket.Readable.push (_stream_readable.js:224:10)
+       at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17),
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: Status Code: 420\nError: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  stack:
+   'Error: Status Code: 420\n    at Request.<anonymous> (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js:277:28)\n    at Request.emit (events.js:197:13)\n    at Request.onRequestResponse (/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js:1066:10)\n    at ClientRequest.emit (events.js:197:13)\n    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:562:21)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:113:17)\n    at TLSSocket.socketOnData (_http_client.js:449:20)\n    at TLSSocket.emit (events.js:197:13)\n    at addChunk (_stream_readable.js:288:12)\n    at readableAddChunk (_stream_readable.js:269:11)\n    at TLSSocket.Readable.push (_stream_readable.js:224:10)\n    at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)',
+  exception: true,
+  date: 'Mon Feb 11 2019 13:53:49 GMT-0500 (Eastern Standard Time)',
+  process:
+   { pid: 9751,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/leeraulin/Projects/twitter_map_react/functions',
+     execPath: '/usr/local/Cellar/node/11.9.0/bin/node',
+     version: 'v11.9.0',
+     argv:
+      [ '/usr/local/Cellar/node/11.9.0/bin/node',
+        '/Users/leeraulin/Projects/twitter_map_react/functions/tweetStream.js' ],
+     memoryUsage:
+      { rss: 63401984,
+        heapTotal: 38539264,
+        heapUsed: 23827920,
+        external: 573313 } },
+  os:
+   { loadavg: [ 1.04541015625, 1.44970703125, 1.56201171875 ],
+     uptime: 11413 },
+  trace:
+   [ { column: 28,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/twitter/lib/twitter.js',
+       function: null,
+       line: 277,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'Request.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 10,
+       file:
+        '/Users/leeraulin/Projects/twitter_map_react/functions/node_modules/request/request.js',
+       function: 'Request.onRequestResponse',
+       line: 1066,
+       method: 'onRequestResponse',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'ClientRequest.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 21,
+       file: '_http_client.js',
+       function: 'HTTPParser.parserOnIncomingClient [as onIncoming]',
+       line: 562,
+       method: 'parserOnIncomingClient [as onIncoming]',
+       native: false },
+     { column: 17,
+       file: '_http_common.js',
+       function: 'HTTPParser.parserOnHeadersComplete',
+       line: 113,
+       method: 'parserOnHeadersComplete',
+       native: false },
+     { column: 20,
+       file: '_http_client.js',
+       function: 'TLSSocket.socketOnData',
+       line: 449,
+       method: 'socketOnData',
+       native: false },
+     { column: 13,
+       file: 'events.js',
+       function: 'TLSSocket.emit',
+       line: 197,
+       method: 'emit',
+       native: false },
+     { column: 12,
+       file: '_stream_readable.js',
+       function: 'addChunk',
+       line: 288,
+       method: null,
+       native: false },
+     { column: 11,
+       file: '_stream_readable.js',
+       function: 'readableAddChunk',
+       line: 269,
+       method: null,
+       native: false },
+     { column: 10,
+       file: '_stream_readable.js',
+       function: 'TLSSocket.Readable.push',
+       line: 224,
+       method: 'push',
+       native: false },
+     { column: 17,
+       file: 'internal/stream_base_commons.js',
+       function: 'TLSWrap.onStreamRead [as onread]',
+       line: 145,
+       method: 'onStreamRead [as onread]',
+       native: false } ],
+  service: 'user-service',
+  timestamp: '2019-02-11T18:53:49.052Z' }

@@ -1,0 +1,406 @@
+{"level":"info","message":"Testing..."}
+{ level: 'info',
+  message: 'Testing...',
+  label: 'right meow!',
+  timestamp: '2019-02-11T17:53:22.958Z' }
+{ level: 'info',
+  message: 'Testing...',
+  timestamp: '2019-02-11T17:54:20.232Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T18:48:23.854Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T18:48:29.745Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T18:48:33.867Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T18:48:37.024Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T18:48:41.316Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T18:50:33.695Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T18:50:36.552Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T18:50:38.638Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T18:50:44.065Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:00:11.783Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:00:11.892Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:00:12.620Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:00:21.025Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:00:27.939Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: '\u001b[33mwarn\u001b[39m',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:00:33.569Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:06:25.606Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:06:28.647Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:06:31.273Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:21:39.667Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:21:40.320Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:21:49.031Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:21:58.735Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:22:01.295Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:26:58.959Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:27:07.456Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:28:03.654Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:28:19.136Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:28:20.068Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:28:22.684Z' }
+{"message":"User not verified...discarding Tweet.","level":"warn","service":"user-service"}
+{"message":"User not verified...discarding Tweet.","level":"warn","service":"user-service"}
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:31:53.812Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:00.806Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:02.589Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:10.175Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:10.581Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:11.632Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:22.690Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:27.568Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:37.297Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:40.351Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:44.141Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:46.913Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:32:56.761Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:03.003Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:06.902Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:07.257Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:13.671Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:21.996Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:36.312Z' }
+{ message: 'Tweet is a retweet...discarding.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:47.643Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:53.032Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:55.563Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:33:56.038Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:34:10.258Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:34:18.902Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:34:27.635Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:34:28.765Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:34:34.385Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:34:37.504Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:02.062Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:04.886Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:05.201Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:05.366Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:08.362Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:08.857Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:21.444Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:24.005Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:29.832Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:29.938Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:29.981Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:43.115Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:50.306Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:35:53.957Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:03.849Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:23.940Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:24.589Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:25.899Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:26.428Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:32.953Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:47.014Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:50.992Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:56.189Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:57.282Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:36:58.983Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:37:14.748Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:37:15.784Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:37:17.902Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:37:30.068Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:37:32.210Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:37:51.571Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:04.121Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:11.578Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:20.303Z' }
+{ message: 'Tweet is a retweet...discarding.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:25.996Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:27.615Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:30.815Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:32.398Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:33.872Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:35.881Z' }
+{ message: 'User not verified...discarding Tweet.',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2019-02-11T19:38:39.003Z' }
