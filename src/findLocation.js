@@ -2,7 +2,7 @@ const axios = require("axios");
 const { googleMapsApiKey } = require("./secrets.js");
 const { writeToFile } = require("./utils.js");
 
-module.exports.findLocation = (() => {
+module.exports = (() => {
   const getGoogleMapsApiUrl = location =>
     `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(
       location

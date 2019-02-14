@@ -5,10 +5,12 @@
     "start": "npm run src/index.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bunyan": "^1.8.12",
     "esm": "^3.2.1",
     "express": "^4.16.4",
     "fs": "^0.0.1-security",
+    "kleur": "^3.0.2",
     "pg": "^7.8.0",
     "pg-hstore": "^2.3.2",
     "request": "^2.88.0",

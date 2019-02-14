@@ -8,22 +8,51 @@
  */
 
 const Twitter = require("twitter");
-const incidentTypes = require("./incidentTypes.js");
-const findLocation = require("./findLocationModule.js");
-const { twitterConfig } = require("./secrets.js");
+const incidentTypes = require("./incidentTypes");
+const findLocation = require("./findLocation");
+const { twitterConfig } = require("./secrets");
+const { yellow, red, green } = require("kleur");
 
-module.exports.tweetStreamer = postgresModule => {
+module.exports = postgresModule => {
   // Apply matching incidentType categories to tweet.
   const categorize = tweet => {
     if (!tweet.id_str) {
       throw new TypeError("Not a Tweet!");
     }
     const types = [];
+    /**
+     * The text of the Tweet and some entity fields are considered for matches.
+     * Specifically, the text attribute of the Tweet, expanded_url and
+     * display_url for links and media, text for hashtags, and screen_name for
+     * user mentions are checked for matches.
+     */
     Object.keys(incidentTypes).forEach(typeKey => {
       const re = incidentTypes[typeKey].regex;
-      if (tweet.text.match(re)) {
-        types.push(typeKey);
+      let textToSearch = tweet.text;
+      if (
+        tweet.entities &&
+        tweet.entities.urls &&
+        tweet.entities.urls.expanded_url
+      )
+        textToSearch += " " + tweet.entities.urls.expanded_url;
+      if (
+        tweet.entities &&
+        tweet.entities.urls &&
+        tweet.entities.urls.display_url
+      )
+        textToSearch += " " + tweet.entities.urls.display_url;
+      if (tweet.entities && tweet.entities.hashtags)
+        textToSearch += " " + tweet.entities.hashtags.join(" ");
+      if (
+        tweet.entities &&
+        tweet.entities.user_mentions &&
+        Array.isArray(tweet.entities.user_mentions)
+      ) {
+        for (mention of tweet.entities.user_mentions) {
+          textToSearch += " " + mention.screen_name;
+        }
       }
+      if (textToSearch.match(re)) types.push(typeKey);
     });
     tweet.incidentType = types;
     return tweet;
@@ -33,11 +62,11 @@ module.exports.tweetStreamer = postgresModule => {
   const processTweetStream = async data => {
     if (data.id_str) {
       if (data.user.verified === false) {
-        console.log("User not verified...discarding Tweet.");
+        console.log(yellow("User not verified...discarding Tweet."));
         return;
       }
       if (data.retweeted_status) {
-        console.log("Tweet is a retweet...discarding.");
+        console.log(yellow("Tweet is a retweet...discarding."));
         return;
       }
       categorize(data);
@@ -45,14 +74,17 @@ module.exports.tweetStreamer = postgresModule => {
       if (!data.coordinates) {
         if (data.user && data.user.location) {
           console.log(
-            `Geocoding for ${data.user.location} failed. Discarding Tweet.`
+            yellow(
+              `Geocoding for ${data.user.location} failed. Discarding Tweet.`
+            )
           );
         } else {
-          console.log("Geolocation failed. Discarding Tweet.");
+          console.log(yellow("Geolocation failed. Discarding Tweet."));
         }
         return;
       }
       postgresModule.saveTweet(data);
+      console.log(green("Tweet saved!"));
     }
   };
 
@@ -76,6 +108,6 @@ module.exports.tweetStreamer = postgresModule => {
 
   // Initialize event listener to handle errors.
   stream.on("error", error => {
-    throw error;
+    console.log(red(error));
   });
 };

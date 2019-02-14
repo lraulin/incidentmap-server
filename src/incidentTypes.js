@@ -91,4 +91,4 @@ Object.values(incidentTypes).forEach(element => {
   element.searchStringAlt = str;
 });
 
-module.exports = { incidentTypes };
+module.exports = incidentTypes;

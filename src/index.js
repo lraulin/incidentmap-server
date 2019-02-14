@@ -1,5 +1,5 @@
 const express = require("express");
-const { tweetStreamer } = require("./tweetStreamer.js");
+const tweetStreamer = require("./tweetStreamer.js");
 
 // Port for server to use
 const PORT = 3050;
