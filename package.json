@@ -2,11 +2,7 @@
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
-    "serve": "firebase serve --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "start": "npm run src/index.js"
   },
   "dependencies": {
     "@stamp/compose": "^1.0.2",
@@ -15,6 +11,7 @@
     "@stamp/required": "^1.0.1",
     "bunyan": "^1.8.12",
     "esm": "^3.2.1",
+    "express": "^4.16.4",
     "firebase-admin": "~6.0.0",
     "firebase-backup": "^0.0.3",
     "firebase-functions": "^2.1.0",
