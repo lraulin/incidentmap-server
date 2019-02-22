@@ -1,3 +1,7 @@
+/**
+ * Helper functions for writing to and reading from files.
+ */
+
 const fs = require("fs");
 
 module.exports = {

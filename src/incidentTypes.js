@@ -1,4 +1,4 @@
-const incidentTypes = {
+module.exports = {
   fatalCrash: {
     displayName: "Fatal Crash",
     searchString:
@@ -83,12 +83,3 @@ const incidentTypes = {
     regex: /^(?=.*drone)(?=.*unauthorized).*$/i
   }
 };
-
-Object.values(incidentTypes).forEach(element => {
-  let str = element.searchString;
-  str = str.replace(/\ \%26|\(|\)/g, "");
-  str = str.replace(/\|/g, ",");
-  element.searchStringAlt = str;
-});
-
-module.exports = incidentTypes;

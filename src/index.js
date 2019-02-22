@@ -1,17 +1,23 @@
+/**
+ * Entry point to program. Starts express server making database available via
+ * REST API, and watches for Tweets in real time and adds them to the database
+ * when appropriate.
+ */
+
 const express = require("express");
-const tweetStreamer = require("./tweetStreamer.js");
 
 // Port for server to use
 const PORT = 3050;
 
 // Initialize database connection
-const { postgres } = require("./postgres.js");
+const postgres = require("./postgres");
+postgres.testConnection();
 
 // Initialize server
 const app = express();
 
 // Begin watching for tweets to add to database.
-tweetStreamer(postgres);
+require("./tweetStreamer");
 
 // Begin listening for connections
 app.listen(PORT, () => {

@@ -1,6 +1,6 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "incidentmap-server",
+  "description": "Server component for transportation incident report map.",
   "scripts": {
     "start": "npm run src/index.js"
   },
@@ -22,6 +22,5 @@
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
-  "module": "main.js",
   "license": "MIT"
 }
