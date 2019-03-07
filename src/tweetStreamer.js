@@ -99,6 +99,8 @@ const searchString = (() =>
     .replace(/\ \%26|\(|\)/g, "")
     .replace(/\|/g, ","))();
 
+console.log(searchString);
+
 // Begin watching for matching tweets.
 const stream = twitterClient.stream("statuses/filter", {
   track: searchString

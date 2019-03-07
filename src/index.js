@@ -7,7 +7,7 @@
 const express = require("express");
 
 // Port for server to use
-const PORT = 3050;
+const PORT = 80;
 
 // Initialize database connection
 const postgres = require("./postgres");
